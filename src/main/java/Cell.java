@@ -1,7 +1,7 @@
 public class Cell {
     private State state;
 
-    public Cell(State state) {
+    public Cell(State state, Cell... neighbours) {
 
         this.state = state;
     }
